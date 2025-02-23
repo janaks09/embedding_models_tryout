@@ -142,7 +142,7 @@ class DbSeeder:
         )
 
         # insert data
-        print("Start inserting seed data")
+        print("Start inserting seed data..")
         insert_result = context_examples.insert(seedRecords)
         context_examples.flush()
         print(
